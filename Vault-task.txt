@@ -1,0 +1,67 @@
+Task
+
+We are creating a password checking system here at the bank, and to make it super secure, we use passphrases instead of passwords. Passphrases are very similar to passwords, but they are better because they contain words separated by spaces and have a punctuation mark at the end (? or ! or .).
+
+Your task is to create a file called input.txt (there is a sample below, but it does not have to work only with that), and write a program that reads it (each passphrase is on a new line) and counts how many correct passphrases are in it, and writes this to the standard output (console).
+
+Write your program to the best of your ability, striving for clean and readable code. If you have experience in testing, you can also include tests. You can use any programming language to solve the task (it doesn't matter if e.g. Javascript is your "strongest" language), but please prefer Java or Python if you are confident in them.
+
+What is considered a correct passphrase:
+
+Consists of more than one word (words are separated by spaces)
+Has a punctuation mark (! ? .) at the end
+Does not contain the same word more than once
+Words only contain letters of the English alphabet
+Words can only be written in lowercase
+What you don't need to check:
+
+Whether the input is a meaningful Hungarian word
+[Example]input.txt
+
+apple pear!
+
+plum.
+
+lemon lime
+
+pear pear?
+
+watermelon, pineapple, fig.
+
+Apple Pear!
+
+Processing:
+
+apple pear! - correct input (+1)
+
+plum. - incorrect input, consists of only 1 word
+
+lemon lime - incorrect input, no punctuation mark at the end
+
+pear pear? - incorrect input, the same word appears multiple times
+
+watermelon, pineapple, fig - incorrect input, contains a disallowed character (,)
+
+Apple Pear! - incorrect input, not all lowercase
+
+Output:
+
+Number of correct passphrases: 1
+
+If you have any questions about solving the task, please send us an email and we will answer as quickly as we can!
+
+Additional notes:
+
+The document is written in Hungarian.
+The task is to write a program that counts the number of correct passphrases in a text file.
+A correct passphrase is defined as:
+Consisting of more than one word (words are separated by spaces)
+Having a punctuation mark (! ? .) at the end
+Not containing the same word more than once
+Words only containing letters of the English alphabet
+Words only being written in lowercase
+The program should output the number of correct passphrases to the standard output (console).
+The document includes an example input file and expected output.
+The author encourages the use of Java or Python for this task, but other languages are allowed.
+The author encourages clean and readable code, as well as testing.
+I hope this translation is helpful. Please let me know if you have any other questions.
